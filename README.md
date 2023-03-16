@@ -35,7 +35,7 @@ The probability that the random value is less than the bound is the complement o
 
 ![](img/7-erf.png)
 
-## Expansion of the integral using the Taylor sequence
+## Expansion of the integral using the Taylor series
 
 ![](img/8-erf-iter.png)
 
