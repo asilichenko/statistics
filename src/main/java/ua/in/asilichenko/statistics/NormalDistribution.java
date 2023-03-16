@@ -11,7 +11,7 @@ public class NormalDistribution {
      * The probability that the value is less than the bound is
      * the complement of the standard normal cumulative distribution function (CDF).
      * <p>
-     * P (x > b) = 1 - Φ(b);
+     * P (x < b) = 1 - Φ(b);
      * <p>
      * Φ(x) = 1/2 (1 + erf(z/√2));
      * <p>
