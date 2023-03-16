@@ -8,7 +8,7 @@ package ua.in.asilichenko.statistics;
 public class NormalDistribution {
 
     /**
-     * The probability that the value is greater than the bound is
+     * The probability that the value is less than the bound is
      * the complement of the standard normal cumulative distribution function (CDF).
      * <p>
      * P (x > b) = 1 - Φ(b);
