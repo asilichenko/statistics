@@ -75,6 +75,11 @@ The probability that the random value is less than the bound is the complement o
 | 21   | 0.6915       |
 | 22   | 0.8413       |
 
+## Implementation
+
+* [NormalDistribution.java](src/main/java/ua/in/asilichenko/statistics/NormalDistribution.java)
+* [NormalDistributionTest.java](src/test/java/ua/in/asilichenko/statistics/NormalDistributionTest.java)
+
 ## Links
 * https://en.wikipedia.org/wiki/Normal_distribution
 * https://en.wikipedia.org/wiki/Cumulative_distribution_function
