@@ -35,6 +35,7 @@ public class NormalDistribution {
      * @param stdDeviation σ
      * @param bound        x
      * @return (μ - x) / (σ√2)
+     * @see <a href="https://en.wikipedia.org/wiki/Standard_score">Z-score</a>
      */
     public static double calcZ(double mean, double stdDeviation, double bound) {
         return (mean - bound) / (stdDeviation * Math.sqrt(2));
