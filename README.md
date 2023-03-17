@@ -29,10 +29,11 @@ The probability that the random value is less than the bound is the complement o
 
 ![](img/5-prob-b.png)
 
-## Error function
-
 ### Z-score:
+
 ![](img/6-z.png)
+
+## Error function
 
 ![](img/7-erf.png)
 
