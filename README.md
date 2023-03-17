@@ -31,6 +31,7 @@ The probability that the random value is less than the bound is the complement o
 
 ## Error function
 
+### Z-score:
 ![](img/6-z.png)
 
 ![](img/7-erf.png)
@@ -78,3 +79,4 @@ The probability that the random value is less than the bound is the complement o
 * https://en.wikipedia.org/wiki/Normal_distribution
 * https://en.wikipedia.org/wiki/Cumulative_distribution_function
 * https://en.wikipedia.org/wiki/Error_function
+* https://en.wikipedia.org/wiki/Standard_score
