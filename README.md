@@ -12,36 +12,41 @@ The probability that the random value is less than the bound is the complement o
 
 ## The standard normal cumulative distribution function
 
-![](img/1-phi.png)
+$$\Phi (x) = \frac{1}{2} \left ( 1 + erf \left ( \frac{x}{\sqrt{2}} \right ) \right );$$
 
-## Probability that a random value (x) is less than bound (a) at standard normal distribution
+## Probability that a random value (x) is greater / less or equal than bound (b) at *standard normal distribution*
 
-![](img/2-prob.png)
+Standard normal distribution - is a normal distribution with mean = 0 and standard deviation = 1.
 
-![](img/3-prob-phi.png)
+$$P(x > b) = \Phi(b);$$
+
+$$P(x\leqslant b) = 1 - \Phi(b);$$
+
+$$P(x\leqslant b) = 1 - \frac{1}{2} \left ( 1 + erf \left ( \frac{b}{\sqrt{2}} \right ) \right );$$
 
 ## Probability at normal distribution with mean and standard deviation
 
-μ - mean;
-σ - standard deviation;
+$$P(x\leqslant b) = 1 - \frac{1}{2} \left ( 1 + erf \left ( \frac{b-\mu}{\sigma\sqrt{2}} \right ) \right );$$
 
-![](img/4-a.png)
+$$z = \frac{x-\mu}{\sigma};$$
 
-![](img/5-prob-b.png)
+$$P(x\leqslant a) = 1 - \frac{1}{2} \left ( 1 + erf \left ( \frac{z}{\sqrt{2}} \right ) \right );$$
 
-### Z-score:
+$$P(x\leqslant a) = \frac{1}{2} \left ( 1 - erf \left ( \frac{z}{\sqrt{2}} \right ) \right );$$
 
-![](img/6-z.png)
+- μ - mean;
+- σ - standard deviation;
+- z - standard score (z-score);
 
 ## Error function
 
-![](img/7-erf.png)
+$$erf(x) = \frac{2}{\sqrt{\pi}} \int_{0}^{x} e^{-x^2}dx;$$
 
-![](img/9-erf-minus-z.png)
+$$erf(-x) = -erf(x)$$
 
 ## Expansion of the integral using the Taylor series
 
-![](img/8-erf-iter.png)
+$$erf(x)=\frac{2}{\sqrt{\pi}} \sum_{n=0}^{\infty} \frac{x}{2n+1} \prod_{k=1}^{n} \frac{-x^2}{k};$$
 
 ## Test data
 
