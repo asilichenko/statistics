@@ -22,7 +22,7 @@ public class NormalDistribution {
      * @param mean         μ
      * @param stdDeviation σ
      * @param bound        x
-     * @return 1 - (1 + erf(z)) / 2 = (1 - erf) / 2
+     * @return 1 - (1 + erf) / 2 = (1 - erf) / 2
      * @see <a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal distribution</a>
      */
     public static double probability(double mean, double stdDeviation, double bound) {
